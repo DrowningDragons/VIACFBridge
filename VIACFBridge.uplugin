@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VIACFBridge",
+	"Description": "Bridges ACF with VaultIt doing the work for you",
+	"Category": "Gameplay",
+	"CreatedBy": "Drowning Dragons",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/DrowningDragons/VaultIt-Wiki/wiki",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/rk3VRYv",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VIACFBridge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VaultIt",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7d19b5622d6846edb9881e6c89bce05e"
+		},
+		{
+			"Name": "AscentCombatFramework",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/19f41df17ac5412c96ac38cbaeb43810"
+		}
+	]
+}
